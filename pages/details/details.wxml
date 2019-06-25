@@ -1,0 +1,34 @@
+<view class='center'>
+  <view class='content'>拍一张你搞怪的照片拍一张你搞怪的照片</view>
+  <view class='money'>200.00元</view>
+  <view class='number'>
+    <text class='RedNum'>红包个数：2/10个</text>
+    <text class='TaskNum'>任务人数：5/10人</text>
+  </view>
+  <view class='invite'>邀请做任务</view>
+</view>
+<view>
+  <view class='wrap'>
+    <!-- 用户头像 --> 
+    <image src='{{header}}' class='header'></image>
+    <!-- 用户的照片描述 -->
+    <view class='font'>
+      <text bindtap='TaskContent' data-text='{{taskContent}}'>{{taskContent}}</text>
+    </view>
+    <!-- 用户上传的照片 -->
+    <view class='PhotoV'>
+      <image src='{{header}}' class='photo' bindtap='TaskContent'></image>
+    </view>
+    <!-- 审核状态 -->
+    <view class='right' bindtap='hint' wx:if="{{hint}}">审核</view>
+    <!-- 显示审核是否通过 -->
+    <view wx:if="{{resultDisplay}}" class='result'>{{result}}</view>
+  </view>
+</view>
+<!-- 模态窗，点击审核后弹出 -->
+<view wx:if="{{display}}" class='TopCenter'>
+  <view class='pass' bindtap='close' data-text='{{text}}'>{{text}}</view>
+  <view class='NoPass' bindtap='close' data-text='{{textNo}}'>{{textNo}}</view>
+</view>
+<view style='width:{{windowWidth}}px;height:{{windowHeight}}px' class='empty' wx:if="{{display}}">
+</view>

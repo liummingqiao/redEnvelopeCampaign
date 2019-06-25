@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/HomePage/Authorize/Authorize",
+    "pages/my/record/record",
+    "pages/HomePage/ReleaseTask/ReleaseTask",
+    "pages/index/index",
+    "pages/participant/participant",
+    "pages/participant/task_content/task_content",
+    "pages/HomePage/HomePage",
+    "pages/participant/to_examine/to_examine",
+    "pages/InviteTask/InviteTask",
+    "pages/qrcode/qrcode",
+    "pages/details/details",
+    "pages/my/my",
+    "pages/my/cash/cash",
+    "pages/redPacket/redPacket",
+    "pages/my/Usualprob/Usualprob",
+    "pages/issue/issue",
+    "pages/share/share"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "包包大冒险",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/HomePage/HomePage",
+        "iconPath": "pages/images/af.png",
+        "selectedIconPath": "pages/images/a.png",
+        "text": "玩法盒子"
+      },
+      {
+        "pagePath": "pages/issue/issue",
+        "iconPath": "pages/images/bf.png",
+        "selectedIconPath": "pages/images/b.png",
+        "text": "任务记录"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "pages/images/cf.png",
+        "selectedIconPath": "pages/images/c.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

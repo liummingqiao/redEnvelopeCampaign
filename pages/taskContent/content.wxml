@@ -1,0 +1,6 @@
+<!--pages/taskContent/content.wxml-->
+<view class='center' style='height:{{windowHeight}}px;width:{{windowWidth}}px'>
+  <view>
+    <image src='{{contentHeader}}'></image>
+  </view>
+</view>

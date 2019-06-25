@@ -1,0 +1,114 @@
+/* pages/details/details.wxss */
+.center{
+  background-color: red;
+  line-height: 2;
+  padding-bottom: 40rpx;
+}
+.money{
+  text-align: center;
+  color: #ECD09A;
+  font-size:90rpx;
+}
+.content{
+  text-align: center;
+  width:60%;
+  margin:0 auto;
+  color: #ECD09A;
+  font-size:45rpx;
+}
+.number{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size:35rpx;
+}
+.invite{
+  width: 80%;
+  height: 90rpx;
+  border:1px solid #bbb;
+  line-height:90rpx;
+  text-align:center;
+  background-color: #BFA37C;
+  margin: 0 auto;
+  color: red;
+  margin-top: 30rpx;
+  border-radius:15rpx;
+}
+.header{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%
+}
+.photo{
+  width: 100rpx;
+  height: 100rpx;
+}
+.wrap{
+  display: flex;
+  justify-content: space-around;
+  height:120rpx;
+  margin-top:35rpx;
+  border-bottom:1px solid #bbb;
+  align-items:center;
+}
+.font{
+  margin-left:-10%;
+  font-size:30rpx;
+  color:#999;
+  line-height:120rpx;
+  height:120rpx;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width:23%;
+}
+.PhotoV{
+  margin-left: -10%
+}
+.right{
+  border: 1px solid red;
+  width:110rpx;
+  height:60rpx;
+  line-height:60rpx;
+  text-align:center;
+  font-size:30rpx;
+  color:red;
+  border-radius:10rpx;
+}
+.TopCenter{
+  width: 50%;
+  height:300rpx;
+  margin:0 auto;
+  text-align:center;
+  position:relative;
+  z-index:2;
+  margin-top:-50%;
+}
+.pass{
+  font-size: 40rpx;
+  background-color:#aaa;
+  color:white;
+  height:30%;
+  line-height:90rpx;
+  border-radius: 30rpx;
+}
+.NoPass{
+  font-size: 40rpx;
+  background-color:#aaa;
+  color:white;
+  height:30%;
+  line-height:90rpx;
+  border-radius: 30rpx;
+  margin-top: 20rpx;
+}
+.empty{
+  background-color: black;
+  position:relative;
+  z-index:1;
+  margin-top:-100%;
+  opacity: 0.5
+}
+.result{
+  font-size: 30rpx;
+  color: #999
+}

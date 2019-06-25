@@ -1,0 +1,15 @@
+/* pages/taskContent/content.wxss */
+page{
+  background-color: black
+}
+view{
+  color: white
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.conCenter{
+  text-align: center
+}
